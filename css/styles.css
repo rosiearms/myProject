@@ -9,8 +9,26 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 4px double green;
     margin: 3px;
+    padding: 20px;
 }
 
 .Background {
     background-image: url('https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg');
+}
+
+.selection {
+    border: 4px double green;
+    padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.planet-selection {
+    border: 2px solid black;
+}
+
+.thumbnail {
+    border: 5px double white;
+    size: 100px 
 }
