@@ -1,3 +1,16 @@
 h1 {
-    color: red;
+    color: darkmagenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.Top {
+    background-image: url('https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA2NC8yMTIvb3JpZ2luYWwvaXNzLWdvb2QtbW9ybmluZy5qcGc=');
+    color: darkorchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 4px double green;
+    margin: 3px;
+}
+
+.Background {
+    background-image: url('https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg');
 }
