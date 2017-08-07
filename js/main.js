@@ -1,5 +1,9 @@
 $(document).ready(function(){
-$('h1').click(function(){
-console.log ('clicked');
-});
-});
+    $('.link').fadeto(0.5);
+    $('.link').mouseenter(function() {
+        $('.link').fadeTo('fast', 1);
+    });
+    $('.link').mouseleave(function(){
+        $('.link').fadeTo('fast', 0.5);
+        });
+    });
