@@ -1,39 +1,44 @@
 h1 {
-    color: gold;
+    background-image: url('https://photophores.files.wordpress.com/2012/11/copie-de-vignettage.jpg');
+    color:teal;
     font-family: Courier New, Courier, monospace;
     font-size: 100px;
-}
-
-h2 {
-    color: orange;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    border: 5px solid white;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
 .Top {
-    background-image: url('https://www.movilgmao.es/contenidos/wp-content/uploads/2013/10/background_DG.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNj2OtL8UvhPVJrnEEZUw_8nxoFUl3DSsL2jgEJvUwIzZCTQg6');
     background-size: unset;
-    border: 30px double darkslategrey;
-    margin: 20px;
+    border: 10px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 5px;
     text-align: center;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
+
 
 p {
     font-family: Courier New, Courier, monospace;
-    font-size: 15px
+    font-size: 15px;
+    border: 5px solid white;
+    background-image: url('https://photophores.files.wordpress.com/2012/11/copie-de-vignettage.jpg');
+    margin-right: 225px;
+    margin-left: 225px;
+    text-align: center;
 }
 
 .Background {
-    background-image: url('https://cdn.vectorstock.com/i/thumb-large/05/54/630554.jpg/630554.jpg');
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/0d/3f/db/0d3fdb5b332dc95be78f3077a19eba2d--rocks-and-minerals-crystals-minerals.jpg');
    background-size: unset;
 }
 
 .selection {
-    background-image: url('https://www.movilgmao.es/contenidos/wp-content/uploads/2013/10/background_DG.jpg');
-    border: 10px solid darkslategrey;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNj2OtL8UvhPVJrnEEZUw_8nxoFUl3DSsL2jgEJvUwIzZCTQg6');
+    background-size: unset;
+    border: 10px solid white;
     padding: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -43,7 +48,8 @@ p {
 }
     
 .link {
-    color: orange;
+    background-image: url('https://photophores.files.wordpress.com/2012/11/copie-de-vignettage.jpg');
+    color: purple;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
     float: left;
@@ -51,7 +57,7 @@ p {
 }
 
 .thumbnail {
-    border: 5px double white;
+    border: 5px double purple;
 }
 
 .footer {
